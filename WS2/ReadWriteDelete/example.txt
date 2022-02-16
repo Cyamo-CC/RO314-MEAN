@@ -1,0 +1,4 @@
+
+This is the example text for workshop.
+The pont of this text is te become familiar with Javascrip file and fileSync 
+This is also on a separate file so yay!

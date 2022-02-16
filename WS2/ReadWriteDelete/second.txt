@@ -1,0 +1,5 @@
+This is a second text file.
+This file is here fo learning puroses only
+I am currently listening to music
+Im just trying to fill these lines with text.
+I recommand artist named "Poppy":) 
