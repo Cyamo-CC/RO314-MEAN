@@ -31,8 +31,11 @@ var server= http.createServer(function(request,response){
         response.end();
         }
     if(request.url ==="/json"){
+        var data = require('./sampledata.json');
          response.writeHead(200,{'Content-type': `application/json`});
-         response.write(fs.readFileSync('sampledata.json'));
+         //data.push({name:"My Name", age:"28"});
+         var text = JSON.stringify(data);
+         response.write(text);
         
         response.end();
         }
